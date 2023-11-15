@@ -1,0 +1,86 @@
+/*globales*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:wght@300;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Press+Start+2P&family=Ubuntu:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: blue;
+}
+
+/*Header*/
+.header{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-family: 'bangers';
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+    margin-right: 10px;
+}
+
+/*enlaces*/
+nav ul {
+    background-color: blue;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    font-family:'ubuntu'; 
+}
+nav li{
+    display: inline-flex;
+    border-radius: 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover{
+    background-color: rgb(3, 3, 145);
+}
+
+
+
+/*banner*/
+.banner{
+    background-image: url('banner.jpg');
+    height: 60rem;
+    background-size: auto;
+    background-position: center;
+}
+.content-banner{
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 20rem 0;
+}
+.content-banner h2{
+color:aliceblue;
+font-size: 3.5rem;
+font-weight: 500;
+line-height: 1.2;
+font-family: 'ubuntu';
+}
+.content-banner a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'ubuntu';
+
+    background-color: blue;
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+}
